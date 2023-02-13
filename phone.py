@@ -20,7 +20,7 @@ def lookup(phone_number):
 def main():
     while True:
         try:
-            phone_number = input("\033[1;32m[+]Introdusca numero telefono: \033[1;37m").strip().replace("-", "").replace(" ", "").replace("+", "")
+            phone_number = input("\033[1;32m[+]Introdusca numero de telefono: \033[1;37m").strip().replace("-", "").replace(" ", "").replace("+", "")
         except KeyboardInterrupt:
             return
 
