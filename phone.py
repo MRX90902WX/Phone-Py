@@ -32,8 +32,6 @@ def main():
 
         [print(f"{info}: {infos[info]}") for info in infos]
         print("")
-        system("bash main.sh")
-        exit()
 
 if __name__ == "__main__":
     main()
