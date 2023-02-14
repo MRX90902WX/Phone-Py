@@ -32,6 +32,7 @@ def main():
 
         [print(f"{info}: {infos[info]}") for info in infos]
         print("")
+        exit()
 
 if __name__ == "__main__":
     main()
